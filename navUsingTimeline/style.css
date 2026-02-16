@@ -1,0 +1,56 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+#screen{
+    height:100vh;
+    width:100%;
+    position:relative;
+    overflow:hidden;
+}
+#screen img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+#col{
+    height:100%;
+    width:30vw;
+    top:0px;
+    right:-30vw;
+    position:absolute;
+    background-color:rgba(0,0,0,0.5);
+}
+
+h4{
+    font-size:2vw;
+    color:white;
+    font-family:arial;
+    text-align:center;
+    margin-top:10vh;
+    font-weight: 300;
+}
+
+#iconmenu{
+    height:40px;
+    width:40px;
+    position:absolute;
+    top:40px;
+    right:40px;
+    background-color:white;
+    border-radius:50%;
+    padding:10px;
+    cursor:pointer;
+}
+#iconclose{
+    height:40px;
+    width:40px;
+    position:absolute;
+    top:40px;
+    right:10px;
+    background-color:white;
+    border-radius:50%;
+    padding:10px;
+    cursor:pointer;
+}
